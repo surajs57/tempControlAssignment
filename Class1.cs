@@ -38,7 +38,7 @@ namespace temperatureEvents
             
             else if (s > 24)
             {
-                Console.WriteLine("Its getting hotter " + s);
+                Console.WriteLine("Its getting hotter\n Temprature: {0}\n Date and Time: {1} ", s, DateTime.Now);
                 Console.WriteLine("------------------------------------------------------------");
             }
                 
